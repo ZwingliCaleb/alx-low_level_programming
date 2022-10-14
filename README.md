@@ -1,1 +1,1 @@
-This is the readme file for Alc low level programming with C repo.
+This is the readme file for ALX low level programming with C repo.
