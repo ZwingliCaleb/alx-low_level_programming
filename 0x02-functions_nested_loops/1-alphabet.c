@@ -1,7 +1,7 @@
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * print_alphabet - llamar la function desde el main
+ * print_alphabet - llamar la funcion desde el main
  */
 
 void print_alphabet(void)
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(i);
+		putchar(i);
 	}
 	_putchar('\n');
 }
