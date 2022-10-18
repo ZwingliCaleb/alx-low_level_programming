@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdlib.h>
 
 /**
  * print_alphabet - llamar la function desde el main
