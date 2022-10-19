@@ -3,14 +3,12 @@
 /**
  * jack_bauer - imprimir todas las horas del dia
  */
-
 void jack_bauer(void)
 {
 	int hour, minute;
 
 	for (hour = 0; hour <= 23; hour++)
 	{
-
 		for (minute = 0; minute <= 59; minute++)
 		{
 			_putchar((hour / 10) + '0');
