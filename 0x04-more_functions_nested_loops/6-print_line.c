@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - function that prints astraight line
+ * print_line - function that prints a straight line
  * @n: takes in an integer
  */
 
