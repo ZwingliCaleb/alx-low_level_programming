@@ -19,7 +19,7 @@ char *leet(char *c)
 		for (j = 0; letters[j] != '\0'; j++)
 		{
 			if (c[i] == letters[j] || c[i] == up_letters[j])
-				c[i] = numbers[j]:
+				c[i] = numbers[j];
 		}
 	}
 	return (c);
