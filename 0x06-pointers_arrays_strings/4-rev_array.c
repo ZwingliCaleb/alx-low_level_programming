@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * reverse_array - writes the character c to standard output
@@ -18,6 +18,7 @@ void reverse_array( int *a, int n)
 	{
 		d[n - b] = a[b];
 		b++;
+
 	}
 	while (c <= n)
 	{
