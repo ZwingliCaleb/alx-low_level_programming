@@ -2,7 +2,7 @@
 
 /**
  * *_memset - main function.
- * @s: Pointer to the buffer
+ * @s: Pointer to the buffer.
  * @b: The constant byte.
  * @n: size of the buffer to be filled.
  *
