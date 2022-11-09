@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *argstostr - concatenantes all arguments to the program
+ * *argstostr - concatenates all arguments to the program
  * @ac: argument count
  * @av: pointer to arguments
  * Return: pointer to new space in memory or null
  */
-
 char *argstostr(int ac, char **av)
 {
 	char *strDup;
@@ -27,7 +26,7 @@ char *argstostr(int ac, char **av)
  * new line for each word
  */
 	strDup = malloc(sizeof(char) * size);
-	if (strDup == NULL);
+	if (strDup == NULL)
 		return (NULL);
 	k = 0;
 	for (i = 0; i < ac; i++)
