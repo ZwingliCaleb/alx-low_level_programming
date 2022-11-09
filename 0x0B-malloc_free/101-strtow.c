@@ -6,7 +6,7 @@
  * @i: current index
  * Return: number of words
  */
- int wordCounterRec(char *str, int i)
+int wordCounterRec(char *str, int i)
 {
 	if (str[i] == '\0')
 		return (0);
