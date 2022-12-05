@@ -5,6 +5,9 @@
  * Desc: Header file containing prototypes for all functions
  * written in the 0x14-bit manipulation directory.
  */
+#include <stdio.h>
+#include <unistd.h>
+#include <limits.h>
 
 int _putchar (char c),
 unsigned int binary_to_uint(const char *b);
