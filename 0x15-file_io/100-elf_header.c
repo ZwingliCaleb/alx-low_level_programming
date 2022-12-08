@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	print_osabi(header->e_ident);
 	printf(" ABI Version:			");
 	printf("%i\n", header->e_ident[EI_ABIVERSION]);
-	Print_type(header->e_type, header->e_ident);
+	print_type(header->e_type, header->e_ident);
 	print_entry(header->e_entry, header->e_ident);
 	free(header);
 	c = close(fd);
