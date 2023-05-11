@@ -13,6 +13,14 @@ size_t minimum_value(size_t a, size_t b)
 		return (b);
 	return (a);
 }
+/**
+ * jump_search - searches for value in a sorted array using jump search algo
+ * @array: pointer to first element
+ * @size: number of elements in array
+ * @value: value to search
+ * desc: 
+ * Return: first index where value is located
+ */
 
 int jump_search(int *array, size_t size, int value)
 {
